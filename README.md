@@ -1,1 +1,1 @@
-# company-directory
+# Company Directory
