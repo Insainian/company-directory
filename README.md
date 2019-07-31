@@ -11,15 +11,15 @@ npm run start
 ### Frontend
 
 * HTML5
-* Tailwind CSS
+* [tailwindcss](https://tailwindcss.com/)
 
 ### Backend
 
-* nestjs
-* Express
-* nodejs
-* TypeScript
+* [NestJS](https://nestjs.com/)
+* [Express](https://expressjs.com/)
+* [Node.js](https://nodejs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
 
 ### Database
 
-TODO
+* TODO
