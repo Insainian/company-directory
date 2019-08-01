@@ -14,10 +14,18 @@ npm run start
 
 ## Development
 
-For incremental builds and hot reload
+For incremental builds and hot reload,
+run the following first:
+
 
 ```bash
 npm run webpack
+```
+
+Then run the following in another terminal:
+
+```bash
+npm run start
 ```
 
 ## Technology Stack
