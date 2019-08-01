@@ -25,7 +25,7 @@ npm run webpack
 Then run the following in another terminal:
 
 ```bash
-npm run start
+npm run start:webpack
 ```
 
 ## Technology Stack

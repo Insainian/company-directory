@@ -7,8 +7,9 @@
   "scripts": {
     "build": "rimraf dist && tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\"",
-    "start": "node dist/server",
+    "start": "ts-node -r tsconfig-paths/register src/main.ts",
     "webpack": "webpack --config webpack.config.js",
+    "start:webpack": "node dist/server",
     "start:dev": "tsc-watch -p tsconfig.build.json --onSuccess \"node dist/main.js\"",
     "start:debug": "tsc-watch -p tsconfig.build.json --onSuccess \"node --inspect-brk dist/main.js\"",
     "start:prod": "node dist/main.js",
