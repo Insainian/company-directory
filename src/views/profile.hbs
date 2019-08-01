@@ -21,21 +21,21 @@
       <p class="subpixel-antialiased text-base sm:text-lg md:text-xl lg:text-3xl xl:text-5xl">{{ name }}</p>
       <div class="text-xs sm:text-sm md:text-base lg:text-lg xl:text-2xl">
         <!--Employee Job/Title-->
-        <p class="antialiased italic text xl:text-3xl pb-2">CEO</p>
+        <p class="antialiased italic text xl:text-3xl pb-2">{{ title }}</p>
         <!--Employee Gender-->
         <p class="antialiased pb-4">Prefered Gender Pronouns:
-          <span class="font-light italic">he/him</span></p>
+          <span class="font-light italic">{{ gender }}</span></p>
         <!--Employee Contact Info-->
         <p class="antialiased">Email:
-          <span class="font-light italic">jon_doe1234@gmail.com</span></p>
+          <span class="font-light italic">{{ email }}</span></p>
         <p class="antialiased pb-5">Phone:
-          <span class="font-light italic">123-456-7890</span></p>
+          <span class="font-light italic">{{ phone}}</span></p>
         <!--Employee Skills-->
         <p class="antialiased">Skills:
           <span
-            class="font-light rounded-full py-1.5 md:py-1 px-4 bg-blue-300 text-xs md:text-sm lg:text-base xl:text-xl">Python</span>
+            class="font-light rounded-full py-1.5 md:py-1 px-4 bg-blue-300 text-xs md:text-sm lg:text-base xl:text-xl">{{ skills }}</span>
           <span
-            class="font-light rounded-full py-1.5 md:py-1 px-4 bg-blue-300 text-xs md:text-sm lg:text-base xl:text-xl">HTML</span>
+            class="font-light rounded-full py-1.5 md:py-1 px-4 bg-blue-300 text-xs md:text-sm lg:text-base xl:text-xl">{{ skills }}</span>
         </p>
       </div>
     </div>
