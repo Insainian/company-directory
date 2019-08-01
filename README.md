@@ -12,6 +12,14 @@ npm install
 npm run start
 ```
 
+## Development
+
+For incremental builds and hot reload
+
+```bash
+npm run webpack
+```
+
 ## Technology Stack
 
 ### Frontend
@@ -25,6 +33,7 @@ npm run start
 * [Express](https://expressjs.com/)
 * [Hanlebars.js](https://handlebarsjs.com/)
 * [Node.js](https://nodejs.org/)
+* [webpack](https://webpack.js.org/)
 * [TypeScript](https://www.typescriptlang.org/)
 
 ### Database
