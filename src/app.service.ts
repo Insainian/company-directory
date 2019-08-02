@@ -11,7 +11,7 @@ export interface Employee {
 
 @Injectable()
 export class AppService {
-  getProfile(id: string): Employee {
+  getProfile(id: string): Employee | undefined {
     if (id == 'jane') {
       return {
         name: 'Jane Doe',
@@ -21,8 +21,7 @@ export class AppService {
         phone: "123-456-789",
         skills: ["Python", "Typescript"]
       }
-    }
-    else if (id == "john") {
+    } else if (id == "john") {
       return {
         name: "John Doe",
         title: 'CTO',
@@ -31,6 +30,8 @@ export class AppService {
         phone: "987-654-321",
         skills: ["Haskell", "Typescript"]
       }
+    } else {
+      return undefined
     }
   }
 }
