@@ -11,6 +11,11 @@ npm install
 ```bash
 npm run start
 ```
+To run the database, use the following command in terminal:
+
+```bash
+pg_ctl -D /usr/local/var/postgres start
+```
 
 ## Development
 
@@ -46,4 +51,4 @@ npm run start:webpack
 
 ### Database
 
-* TODO
+* [PostgreSQL](https://www.postgresql.org/)
