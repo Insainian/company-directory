@@ -1,3 +1,7 @@
+psql company_directory_db
+
+\d
+
 CREATE TABLE profile (
 	username text,
 	domain text,

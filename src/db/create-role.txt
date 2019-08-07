@@ -1,0 +1,13 @@
+psql postgres
+
+postgres# \password postgres 
+
+CREATE USER ui_server
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO ui_server;
+
+\q
+
+
+
+

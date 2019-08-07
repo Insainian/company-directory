@@ -1,0 +1,13 @@
+psql postgres -U admin
+
+postgres=> CREATE DATABASE company_directory_db;
+
+postgres=> GRANT ALL PRIVILEGES ON DATABASE company_directory_db TO admin;
+
+postgres=> \list
+
+postgres=> \connect 
+
+postgres=> \dt 
+
+postgres=> \q
