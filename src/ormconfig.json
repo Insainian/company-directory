@@ -1,0 +1,10 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 5432,
+    "username": "ui_server",
+    "password": "ui_server",
+    "database": "company_directory_db",
+    "entities": ["src/**/*.entity{.ts,.js}"],
+    "synchronize": true
+  }
