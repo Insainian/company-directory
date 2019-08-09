@@ -10,8 +10,8 @@ export class ProfileService {
 
     async getProfile(_username: string, _domain: string): Promise<Profile> {
         return await this.profileRepository.findOne({
-            select: ['domain', 'name', 'title', 'gender', 'phone'],
-            where: [{"username": _username}]
+            select: ['name', 'title', 'gender', 'phone'],
+            where: [{"username": _username, "domain": _domain}]
         })
     }
 }

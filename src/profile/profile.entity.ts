@@ -5,7 +5,7 @@ export class Profile {
     @PrimaryColumn()
     username: string
     
-    @Column()
+    @PrimaryColumn()
     domain: string
 
     @Column()
