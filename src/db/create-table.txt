@@ -11,5 +11,5 @@ CREATE TABLE profile (
 	gender text,
 	phone text,
 	skills text[],
-	PRIMARY KEY (username, domain)
+	PRIMARY KEY (username)
 );
