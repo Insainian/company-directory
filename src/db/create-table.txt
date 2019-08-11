@@ -1,4 +1,4 @@
-psql company_directory_db
+psql -d company_directory_db -U ui_server
 
 \d
 
@@ -10,6 +10,6 @@ CREATE TABLE profile (
 	title text,
 	gender text,
 	phone text,
-	skills text[],
+	skills text,
 	PRIMARY KEY (username, domain)
 );

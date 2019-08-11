@@ -1,10 +1,10 @@
-import { Entity, Column, PrimaryColumn } from 'typeorm';
+import { Entity, Column, PrimaryColumn, AfterLoad } from 'typeorm';
 
 @Entity()
 export class Profile {
     @PrimaryColumn()
     username: string
-    
+
     @PrimaryColumn()
     domain: string
 
@@ -20,7 +20,6 @@ export class Profile {
     @Column()
     phone: string
 
-    // TODO
-    // @Column()
-    // skills: string[]
+    @Column("simple-array")
+    skills: string[]
 }
