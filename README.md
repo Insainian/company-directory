@@ -1,37 +1,14 @@
 # Company Directory
 
-## Initial Setup
+## Introduction
 
-```bash
-npm install
-```
+Company Directory is a multi-tenant web-app for storing and viewing employee information.
 
-## Run Server
+I developed this during my 5 week internship at Araali Networks in the Summer of 2019. I learned TypeScript and the following stack during my intership.
 
-```bash
-npm run start
-```
-To run the database, use the following command in terminal:
+## UI
 
-```bash
-pg_ctl -D /usr/local/var/postgres start
-```
-
-## Development
-
-For incremental builds and hot reload,
-run the following first:
-
-
-```bash
-npm run webpack
-```
-
-Then run the following in another terminal:
-
-```bash
-npm run start:webpack
-```
+I developed a responsive UI that works on large screens as well as small screens.
 
 ## Technology Stack
 
@@ -43,7 +20,6 @@ npm run start:webpack
 ### Backend
 
 * [NestJS](https://nestjs.com/)
-* [Express](https://expressjs.com/)
 * [Hanlebars.js](https://handlebarsjs.com/)
 * [Node.js](https://nodejs.org/)
 * [webpack](https://webpack.js.org/)
@@ -52,3 +28,4 @@ npm run start:webpack
 ### Database
 
 * [PostgreSQL](https://www.postgresql.org/)
+* SQL (I had learnt this before my internship)
