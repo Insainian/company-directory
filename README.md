@@ -8,7 +8,7 @@ I developed this during my 5 week internship at Araali Networks in the Summer of
 
 ## UI
 
-I developed a responsive UI that works on large screens as well as small screens.
+I developed a responsive UI that works on [large screens](screenshots/xl.png) as well as [small screens](screenshots/sm.png).
 
 ## Technology Stack
 
